@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-zafz
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/stonesoup_perfscale/ci10t-786-0072-tenant/ci10t-786-0072-app/devfile-sample-zafz@sha256:730522c4d4bac38b00e8983ee61c9ec0922d6102579931cc7fc3fb13119b50f2
+        name: my-nodejs
+        resources: {}
+status: {}
